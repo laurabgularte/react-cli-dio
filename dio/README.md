@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+# React CLI DIO 🚀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Repositório desenvolvido como parte dos estudos práticos e desafios dos bootcamps e cursos da **DIO (Digital Innovation One)**, com foco na utilização de ferramentas de linha de comando (CLI), configuração inicial de ambientes e gerenciamento de navegação em aplicações **ReactJS**.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📋 Sobre o Projeto
 
-### `npm start`
+Este projeto demonstra a criação e estruturação de uma aplicação moderna em React, abordando conceitos essenciais como componentização, gerenciamento de rotas/navegação e boas práticas de desenvolvimento front-end aprendidas durante a jornada na DIO.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tecnologias Utilizadas
 
-### `npm test`
+As principais ferramentas e tecnologias aplicadas neste repositório:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **ReactJS**: Biblioteca JavaScript para construção de interfaces de usuário reativas e componentizadas.
+- **JavaScript (ES6+)**: Recursos modernos da linguagem para estruturação da lógica.
+- **React Router / Navegação**: Gerenciamento de rotas e transições entre páginas.
+- **Git & GitHub**: Controle de versão e compartilhamento do código.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ⚙️ Pré-requisitos
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Antes de clonar e executar este projeto, certifique-se de ter instalado em seu computador:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Node.js](https://nodejs.org/) (versão LTS recomendada)
+- Gerenciador de pacotes (`npm` ou `yarn`)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🚀 Como Executar o Projeto
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Siga os passos abaixo para rodar o projeto em sua máquina local:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Clone o repositório:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   git clone https://github.com/laurabgularte/react-cli-dio.git
+   ```
 
-## Learn More
+2. **Entre na pasta do projeto:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   cd react-cli-dio
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. **Instale as dependências:**
 
-### Code Splitting
+   ```bash
+   npm install
+   # ou
+   yarn install
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4. **Inicie o servidor de desenvolvimento:**
 
-### Analyzing the Bundle Size
+   ```bash
+   npm run start
+   # ou
+   yarn start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+5. O aplicativo abrirá automaticamente ou poderá ser acessado no navegador em `http://localhost:3000`.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📁 Estrutura de Pastas
 
-### Advanced Configuration
+A organização básica dos arquivos do projeto segue o padrão recomendado para aplicações React:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```text
+react-cli-dio/
+├── public/          # Arquivos estáticos e HTML principal
+├── src/             # Código-fonte da aplicação
+│   ├── assets/      # Imagens, ícones e estilos globais
+│   ├── components/  # Componentes reutilizáveis
+│   ├── pages/       # Páginas da aplicação estruturadas com rotas
+│   ├── App.js       # Componente principal raiz
+│   └── index.js     # Ponto de entrada do React
+├── package.json     # Dependências e scripts de automação
+└── README.md        # Documentação do projeto
+```
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🤝 Contribuição
 
-### `npm run build` fails to minify
+Sinta-se à vontade para abrir _issues_ ou enviar _pull requests_ caso tenha sugestões de melhorias, correções ou novas funcionalidades para o projeto!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## ✒️ Autora
+
+Desenvolvido por **Laura B. Gularte** 💜  
+Acompanhe meus outros projetos e evoluções profissionais no [GitHub](https://github.com/laurabgularte).
+
+---
