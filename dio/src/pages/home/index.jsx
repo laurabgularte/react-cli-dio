@@ -1,12 +1,47 @@
-import { Link } from "react-router-dom";
+import {
+  Container,
+  Title,
+  TitleHighLight,
+  TextContent,
+  Wrapper,
+} from "./style";
+import Banner from "../../assets/professional-challenges.png";
+import { Button } from "../../components/button";
+import { useNavigate } from "react-router-dom";
+
 const Home = () => {
+  const navigate = useNavigate();
+
+  const handleClickSignIn = () => {
+    navigate("/login");
+  };
+
   return (
-    <>
-      <h1>Home</h1>
-      <Link to="/login">
-        <button>Fazer Login</button>
-      </Link>
-    </>
+    <Container>
+      <Wrapper>
+        <Title>
+          <TitleHighLight>
+            Implemente
+            <br />
+          </TitleHighLight>
+          o seu futuro global agora!
+        </Title>
+        <TextContent>
+          Domine as tecnologias mais utilizadas pelas empresas mais inovadoras
+          do mundo e encare seu novo desafio profissional, evoluindo em
+          comunidade com os melhores experts.
+        </TextContent>
+        <Button
+          title="Começar agora"
+          variant="secondary"
+          onClick={handleClickSignIn}
+        />
+      </Wrapper>
+      <div>
+        <img src={Banner} alt="Imagem principal da página" />
+      </div>
+    </Container>
   );
 };
-export { Home };
+
+export default Home;
